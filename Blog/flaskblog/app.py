@@ -30,7 +30,7 @@ def post(post_id):
     return render_template('post.html', post=post)
 
 # Gönderi Silme (Örnek)
-@app.route('/delete/<int:post_id>')
+@app.route('/delete/<int:post_id>', methods=['GET'])
 def delete(post_id):
     delete_post(post_id)
     return redirect('/')

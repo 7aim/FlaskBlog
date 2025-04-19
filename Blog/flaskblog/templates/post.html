@@ -7,6 +7,7 @@
         <p class="text-muted">{{ post.author }} | {{ post.date }}</p>
         <p>{{ post.content }}</p>
         <a href="/" class="btn btn-secondary">Geri Dön</a>
+        <a href="{{ url_for('delete', post_id=post.id) }}" class="btn btn-delete">Sil</a>
     </article>
 </div>
 {% endblock %}
