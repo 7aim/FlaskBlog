@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <article>
+        <h2>{{ post.title }}</h2>
+        <p class="text-muted">{{ post.author }} | {{ post.date }}</p>
+        <p>{{ post.content }}</p>
+        <a href="/" class="btn btn-secondary">Geri Dön</a>
+    </article>
+</div>
+{% endblock %}
