@@ -13,11 +13,11 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="/">Blogum</a>
+            <a class="navbar-brand" href="/">My Blog</a>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/create">Yeni Gönderi</a>
+                        <a class="nav-link" href="/create">New Article</a>
                     </li>
                 </ul>
             </div>
@@ -26,7 +26,7 @@
 
     <!-- İçerik -->
     <div class="container mt-5">
-        <h1 class="mb-4">Son Gönderiler</h1>
+        <h1 class="mb-4">Last Asticles</h1>
         
         <!-- Blog Gönderileri (Flask'tan dinamik olarak gelecek) -->
         <div class="row">
@@ -36,8 +36,8 @@
                     <div class="card-body">
                         <h5 class="card-title">{{ post.title }}</h5>
                         <p class="card-text">{{ post.content[:100] }}...</p>
-                        <p class="text-muted">Yazar: {{ post.author }} | Tarih: {{ post.date }}</p>
-                        <a href="/post/{{ post.id }}" class="btn btn-primary">Devamını Oku</a>
+                        <p class="text-muted">Writer: {{ post.author }} | Tarih: {{ post.date }}</p>
+                        <a href="/post/{{ post.id }}" class="btn btn-primary">Read more</a>
                     </div>
                 </div>
             </div>
