@@ -2,7 +2,7 @@ import json
 import os
 from datetime import datetime
 
-DATA_FILE = "flaskblog/data/posts.json"
+DATA_FILE = "Blog/data/posts.json"
 
 def read_posts():
     # Klasör yoksa oluştur
