@@ -24,7 +24,6 @@ body {
 
 .btn-primary {
     background-color: #63009c !important; /* Devamini oku */
-    border-color: #63009c !important;
     transition: background-color 1.0s ease;
 }
 
@@ -39,13 +38,12 @@ body {
 }
 
 .btn-success:hover {
-    background-color: #8500d1 !important;
+    background-color: #00d412 !important;
 }
 
 .btn-delete {
     color: white !important;
     background-color: #9c0000 !important; /* Sil */
-    border-color: #9c0000 !important;
     transition: background-color 1.0s ease;
 }
 
@@ -55,7 +53,6 @@ body {
 
 .btn-secondary {
     background-color: #63009c !important; /* Geri don */
-    border-color: #63009c !important;
     transition: background-color 1.0s ease;
 }
 
