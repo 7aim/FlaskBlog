@@ -3,7 +3,7 @@ body {
 }
 
 .card {
-    transition: transform 0.2s;
+    transition: transform 1.0s;
 }
 
 .card:hover {
@@ -11,30 +11,54 @@ body {
 }
 
 .navbar {
-    background-color: #63009c !important; /* Ust layer */
+    background-color: #63009c !important; /* Top layer */
+    transition: background-color 1.0s ease;
+}
+.navbar:hover {
+    background-color: #8500d1 !important; /* Top layer */
 }
 
 .nav-link {
-    color: #ffffff !important; /* Ust layer */
+    color: #ffffff !important; /* Top text */
 }
 
 .btn-primary {
     background-color: #63009c !important; /* Devamini oku */
     border-color: #63009c !important;
+    transition: background-color 1.0s ease;
 }
-  
+
+.btn-primary:hover {
+    background-color: #8500d1 !important;
+}
+
 .btn-success {
     background-color: #009e0d !important; /* Yeni gonderi */
     border-color: #009e0d !important;
+    transition: background-color 1.0s ease;
+}
+
+.btn-success:hover {
+    background-color: #8500d1 !important;
 }
 
 .btn-delete {
     color: white !important;
     background-color: #9c0000 !important; /* Sil */
     border-color: #9c0000 !important;
+    transition: background-color 1.0s ease;
+}
+
+.btn-delete:hover {
+    background-color: #c80000 !important;
 }
 
 .btn-secondary {
     background-color: #63009c !important; /* Geri don */
     border-color: #63009c !important;
+    transition: background-color 1.0s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #8500d1 !important;
 }
