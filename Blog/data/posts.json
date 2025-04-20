@@ -1,23 +1,9 @@
 [
     {
-        "id": 2,
-        "title": "2",
-        "content": "2",
+        "id": 1,
+        "title": "1",
+        "content": "1",
         "author": "Admin",
-        "date": "19 April 2025 21:17"
-    },
-    {
-        "id": 3,
-        "title": "3",
-        "content": "3",
-        "author": "Admin",
-        "date": "19 April 2025 21:17"
-    },
-    {
-        "id": 4,
-        "title": "4",
-        "content": "4",
-        "author": "Admin",
-        "date": "19 April 2025 21:17"
+        "date": "20 April 2025 16:45"
     }
 ]
