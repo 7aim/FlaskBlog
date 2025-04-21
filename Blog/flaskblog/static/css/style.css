@@ -52,10 +52,10 @@ body {
 }
 
 .btn-secondary {
-    background-color: #63009c !important; /* Geri don */
+    background-color: #404040 !important; /* Geri don */
     transition: background-color 1.0s ease;
 }
 
 .btn-secondary:hover {
-    background-color: #8500d1 !important;
+    background-color: #000000 !important;
 }
